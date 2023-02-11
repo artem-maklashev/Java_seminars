@@ -1,14 +1,12 @@
 // 1. Вычислить n-ое треугольного число(сумма чисел от 1 до n), n! 
 // (произведение чисел от 1 до n
-package HomeWork;
 
 import java.util.Scanner;
 
 public class task1 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
-        int number = 0;
-        int result = 0;
+        int number = 0;        
         System.out.println("Введите целое число: ");
         if (iScanner.hasNextInt()) {
             number = iScanner.nextInt();

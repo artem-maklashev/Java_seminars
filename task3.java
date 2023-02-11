@@ -1,6 +1,4 @@
-
 // 3. Реализовать простой калькулятор
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class task3 {

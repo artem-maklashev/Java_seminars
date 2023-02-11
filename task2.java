@@ -1,4 +1,3 @@
-package HomeWork;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class task2 {
@@ -6,9 +5,9 @@ public class task2 {
         Scanner iScanner = new Scanner(System.in);
         int number = 0;        
         System.out.println("Введите целое число: ");
-        if (iScanner.hasNextInt()) {
+        // if (iScanner.hasNextInt()) {
             number = iScanner.nextInt();
-        }
+        // }
         iScanner.close();
         ArrayList<Integer> result = simpleNumbers(number); 
         System.out.printf("Простые числа в диапазоне от 2 до %d :", number);
