@@ -1,0 +1,8 @@
+февр. 15, 2023 12:04:42 PM task4 main
+INFO: Input equation: 3+5
+февр. 15, 2023 12:04:42 PM task4 resultOfEquation
+INFO: operator +
+февр. 15, 2023 12:04:42 PM task4 main
+INFO: Result=8.0
+февр. 15, 2023 12:05:05 PM task4 main
+INFO: Input equation: quit
