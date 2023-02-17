@@ -1,3 +1,5 @@
+// Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее арифметическое этого списка.
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
