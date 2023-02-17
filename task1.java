@@ -50,7 +50,7 @@ public class task1 {
         for (int j = 0; j < rightLength; j++) {
             rightPart[j] = baseArray[middleIndex + 1 + j];
         }
-
+        System.out.printf("Лево %s, право %s\n", Arrays.toString(leftPart), Arrays.toString(rightPart));
         int i = 0, j = 0;
         int k = startIndex;
         while (i < leftLengh && j < rightLength) {
@@ -74,5 +74,6 @@ public class task1 {
             j++;
             k++;
         }
-    }
+        // System.out.println(Arrays.toString(baseArray));
+    }    
 }
