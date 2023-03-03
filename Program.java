@@ -20,10 +20,10 @@ public class Program {
         int selection = 1;
         while (selection != 9) {
             mm.printMenu("Основное меню");
+            selection = iScanner.nextInt();
             if (selection < 1 && selection > 9) {
                 System.out.println("Введено неверное значение");
-            } else {
-                selection = iScanner.nextInt();
+            } else {                
                 getVariants(selection, nbList);
             }
         }
